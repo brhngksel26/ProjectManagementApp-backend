@@ -12,8 +12,6 @@ logs:
 restart:
 	docker restart $(DOCKER-PROJECT-MANAGEMENT) || true
 	docker restart $(DOCKER_MONGO) || true
-bash:
-	docker exec -it $(DOCKER-PROJECT-MANAGEMENT) bash
 
 up:
 	cp example.env .env

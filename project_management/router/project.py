@@ -7,9 +7,14 @@ auth_handler = AuthHandler()
 router = APIRouter()
 
 @router.get("/get_project", response_model=list, tags=["Project"])
-async def get():
+async def get(id = None):
+    if id is None:
+        data_list = Project.objects.all()
+        return [data.to_json() for data in data_list]
+    
     data_list = Project.objects.all()
     return [data.to_json() for data in data_list]
+
 
 @router.post("/create_project", tags=["Project"])
 async def create(project : ProjectModel, username=Depends(auth_handler.auth_wrapper)):
