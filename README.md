@@ -18,3 +18,4 @@ uvicorn run:main --reload
 
 ```
 [Project Management App Docs Page](http://0.0.0.0:8000/docs)
+[Slack Kanal Davet Linki](https://join.slack.com/t/heybooster-workspace/shared_invite/zt-1gw43hffk-lRnLHx_U3ui21Lp3VHaxdw)
