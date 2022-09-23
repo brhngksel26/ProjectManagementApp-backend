@@ -2,8 +2,8 @@
 
 # Projece Kurulumu
 
-### 
-pip3 install virtualenv 
+### Öncellik le virtualenv kurulumalı
+  pip3 install virtualenv 
 
 or
 ###
