@@ -17,3 +17,4 @@ pip install -r requirements.txt
 uvicorn run:main --reload
 
 ```
+[proje url](http://0.0.0.0:8000/docs)
