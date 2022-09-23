@@ -4,9 +4,6 @@
 
 ### Öncellik le virtualenv kurulumalı
 ```
-pip3 install virtualenv 
-```
-or
-```
-pip install virtualenv 
+pip3 install virtualenv # pip3
+pip install virtualenv  # pip
 ```
